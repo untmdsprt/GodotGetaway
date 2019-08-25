@@ -19,6 +19,10 @@ config/name="GodotGetaway"
 run/main_scene="res://Lobby/Lobby.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Network="*res://Networking/Network.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
